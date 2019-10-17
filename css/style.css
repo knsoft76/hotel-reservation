@@ -1,7 +1,7 @@
 @import 'fonts.css';
 body{
   overflow-x: hidden;
-  font-family:"IRANSans";
+  font-family:"IRANSans" !important;
 }
 
 .carousel-item{
