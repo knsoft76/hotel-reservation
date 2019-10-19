@@ -44,44 +44,50 @@
                       </div><!--account dropdown-->
                      </div><!--row-->
               </div><!--top1-wrapper-->
-  <!-----------------------------build menu---------------------------------------->            
-              <div class="top2-wrapper">
-                  <div class="row2">
-                          <div class="container">
-                              <nav class="navbar navbar-expand-lg">
-                                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span class="navbar-toggler-icon"></span>
-                                  </button>
-                                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                    <ul class="navbar-nav mr-auto">
-                                      <li class="nav-item ">
-                                        <a class="nav-link" href="#">صفحه اصلی </a>
+  <!-----------------------------build menu---------------------------------------->                    
+             <div class="top2-wrapper">
+               <div class="container">
+                   <div class="row2">
+                     
+                      <nav class="navbar navbar-expand-lg">
+                          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                              <ul class="navbar-nav">
+                                  <li class="nav-item dropdown">
+                                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        لیست هتل ها
+                                      </a>
+                                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="#">مشهد</a>
+                                        <a class="dropdown-item" href="#">تهران</a>
+                                        <a class="dropdown-item" href="#">کیش</a>
+                                      </div>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">درباره ما</a>
                                       </li>
                                       <li class="nav-item">
-                                        <a class="nav-link" href="#">رزرو هتل</a>
-                                      </li>
-                                      <li class="nav-item">
-                                          <a class="nav-link" href="#">اتاق های ما</a>
+                                          <a class="nav-link" href="#">خدمات ما</a>
                                         </li>
-                                      <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                          لیست هتل
-                                        </a>
-                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                          <a class="dropdown-item" href="#">مشهد</a>
-                                          <a class="dropdown-item" href="#">کیش</a>
-                                          <a class="dropdown-item" href="#">تهران</a>
-                                        </div>
-                                      </li>
-                                      <li class="nav-item">
-                                        <a class="nav-link" href="#"  >در باره ما</a>
-                                      </li>
-                                    </ul>
-                                  </div>
-                                </nav>
-                          </div><!--container-->
-                  </div><!--row2-->
-              </div><!--top2-wrapper-->
+                                        <li class="nav-item">
+                                            <a class="nav-link" href="#">اتاق های ما</a>
+                                          </li>
+                                          <li class="nav-item">
+                                              <a class="nav-link" href="#">رزرو اتاق</a>
+                                            </li>
+                                          
+                                             <li class="nav-item ">
+                                             <a class="nav-link" href="#">صفحه اصلی </a>
+                                             </li>
+                              </ul>
+                            </div>
+                        </nav>
+                      
+                   </div><!---row2-->
+               </div><!--container-->
+             </div><!--top2-wrapper-->      
             </div><!--top-inner-->
           </div><!--top-wrapper-->
   <!------------------------------------icon---------------------------------------->
@@ -119,6 +125,74 @@
           </div><!--slide-buttons clearfix-->
       </div><!--container-->
   </div><!--slide-buttons-wrapper-->
+
+<!----------------------------------------booking-wrapper---------------------------->
+<div class="booking-wrapper">
+    <div class="container">
+        <div class="booking-inner clearfix" data-select2-id="13">
+            <form action="javascript:;" class="form1 clearfix" data-select2-id="12">
+                 
+                    <div class="col-2 c1"> 
+                        <div class="input1_wrapper">
+                            <div class="input1_inner">
+                                <input type="text" class="form-control input datepicker" placeholder="زمان ورود">
+                            </div>
+                        </div>
+                    </div><!---col-2 c1-->
+                    <div class="col-2 c2"> 
+                        <div class="input1_wrapper">
+                            <div class="input1_inner">
+                                <input type="text" class="form-control input datepicker" placeholder="زمان خروج">
+                            </div>
+                        </div>
+                    </div><!--col-1 c2--->
+                    <div class="col-2 c3"> 
+                        <div class="select1_wrapper">
+                            <div class="select1_inner">
+                                <select class="select2 select" style="width: 100%">
+                                    <option value="1">بزرگسال یک نفر</option>
+                                    <option value="2">بزرگسال دو نفر</option>
+                                    <option value="3">بزرگسال سه نفر</option>
+                                    <option value="4">بزرگسال چهار نفر</option>
+                                </select>
+                            </div><!--select1_inner-->
+                        </div><!--select1_wrapper-->
+                    </div><!--col-2 c3--->
+                    <div class="col-2 c4">
+                      <div class="select1_wrapper">
+                        <div class="select1_inner">
+                            <select class="select2 select" style="width: 100%">s
+                                <option value="1">یک فرزند</option>
+                                <option value="2">دو فرزند</option>
+                                <option value="3">سه فرزند</option>
+                                <option value="4">چهار فرزند</option>
+                            </select>
+                        </div><!--select1_inner-->
+                    </div><!--select1_wrapper-->
+                    </div><!--col-2 c4-->
+                    <div class="col-2 c5"> 
+                            <div class="select1_wrapper">
+                                 
+                                <div class="select1_inner">
+                                    <select class="select2 select" style="width: 100%">
+                                        <option value="1">اتاق یک تخته</option>
+                                        <option value="2">اتاق دو تخته</option>
+                                        <option value="3">اتاق سه تخته</option>
+                                        <option value="4">اتاق چهار تخته</option>
+                                    </select>
+                                </div><!--select1_inner-->
+                              </div><!--select1_wrapper-->
+                    </div><!--col-2 c5-->
+                    <div class="col-3 c6 "> 
+                        <button type="submit" class="btn-form1-submit">بررسی در دسترس بودن</button>
+                    </div><!--col-3 c6-->
+                   
+            </form>
+        </div><!--booking-inner clearfix-->
+    </div><!--container--->
+</div><!--booking-wrapper--->
+  
+
   <!------------------------------------slider------------------------------------->       
           <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">

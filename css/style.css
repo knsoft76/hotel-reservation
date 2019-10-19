@@ -4,10 +4,12 @@ body{
   font-family:"IRANSans" !important;
 }
 
+/*------------------------slider------------------------------ */
 .carousel-item{
     max-height: 665px;
     overflow: hidden;
  }
+ /*------------------------header------------------------------ */
  .row{
    position: absolute;
    top: 0;
@@ -54,41 +56,49 @@ transition: all 0.3s ease-out;
 }
 .dropdown-toggle{
   color: #f8f8f8;
+ 
 }
 .dropdown-toggle:hover{
   color:  #f6ae00;
   text-decoration: none;
+ 
 }
-.row2{
+.dropdown-menu:hover{
+  z-index: 1000;
+}
+/*------------------------menu-------------- ------------------- */
+
+ .row2{
   position: absolute;
-  top: 80px;
-  z-index: 1;
-  left: 1024px;
-}  
-.navbar{
-  right:250px;
-  overflow-x: hidden;
-  direction: rtl;
+  top:80px;
+  z-index:2;
+  left:660px;
+ 
+   
 }
-.nav-link{
-  width: 85px;
-  z-index:1px;
+.nav-item a{
+  color: #f8f8f8;
 }
- .nav-item a{
-   color: #f8f8f8;
- }
- .nav-item a:hover{
-   color: #fab000;
- }
- .dropdown-menu a{
-   color:#5c5656;
- }
- .dropdown-menu{
-   z-index: -1;
-   position: absolute;
-   top: 0px;
-   left:0;
- }
+ 
+.nav-item a:hover{
+  color: #f6ae00;
+}
+.dropdown-menu a{
+  color: #256664;
+  text-align: right;
+}
+  
+.dropdown-menu a:hover{
+  color: #f8f8f8;
+background-color:#f6ae00; ;
+}
+
+.nav-item{
+  padding-left: 8px;
+}
+
+
+/*------------------------icon-------------------------------- */
 
  .slide-buttons-wrapper{
   border-top: 1px solid #256664;
@@ -128,3 +138,91 @@ transition: all 0.3s ease-out;
 .slide-button a .txt1:hover{
   color: #f6ae00;
 }
+/*-----------------------booking-wrapper------------------------------ */
+
+.booking-wrapper {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  bottom: 7%;
+  z-index: 5;
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.booking-inner {
+  position: relative;
+  background: #fff;
+  border-radius: 0;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.form1 {
+  display: flex;
+  padding-left:12px;
+  position: relative;
+  height:70px;
+}
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+.btn-form1-submit{
+  height:70px;
+  color: #f8f8f8;
+  background: #fab000;
+  border: none;
+  width: 200px;
+   
+}
+.btn-form1-submit:hover{
+  background-color: blue;
+  transition:all 1s ease;
+  border: none;
+}
+.select1_wrapper{
+  display: flex;
+  direction: rtl;
+  margin-top: 16px;
+}
+.select1_inner {
+  position: relative;
+}
+select{
+  border: none;
+}
+select::after{
+  border: none;
+}
+.c4{
+margin-right: -20px;
+}
+.form1 .c1 {
+  border-right: 1px solid #dddddd;
+}
+.form1 .c2 {
+  border-right: 1px solid #dddddd;
+}
+.form1 .c3 {
+  border-right: 1px solid #dddddd;
+}
+.form1 .c4 {
+  border-right: 1px solid #dddddd;
+}
+ 
+.input1_wrapper{
+  display: flex;
+  direction: rtl;
+   margin-top: 16px;
+}
+.input1_inner {
+  position: relative;
+}
+input{
+  border: none;
+} 
+ 
