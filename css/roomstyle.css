@@ -1,0 +1,118 @@
+@import 'fonts.css';
+body{
+  overflow-x: hidden;
+  font-family:"IRANSans" !important;
+}
+
+/*------------------------slider------------------------------ */
+.carousel-item{
+    max-height: 665px;
+    overflow: hidden;
+ }
+ /*------------------------header------------------------------ */
+ .row{
+   position: absolute;
+   top: 0;
+   z-index: 1;
+   border-bottom: 2px solid rgba(246, 174, 0, 0.2);
+    left:150px;
+ }  
+ .search-btn{
+    display: block; 
+    text-decoration: none;
+    width: 81px;
+    height: 64px;
+    line-height: 64px;
+    border-left: 1px solid rgba(246, 174, 0, 0.2); 
+    color: black;
+    text-align: center; 
+    font-size: 24px;
+    margin-left:1024px;
+  
+  }
+ .search-btn:hover{color: #fab000;}
+  .social-wrapper{
+    margin-left: 886px;
+    position: absolute;
+    border-left: 1px solid rgba(246, 174, 0, 0.2); 
+     
+     
+  }
+  .social{
+    display: block;  padding: 0; margin: 0;list-style: none; 
+  }
+  .social li{display: inline-block; padding: 0 5px; }
+   
+.social a{display: block; color:black; line-height: 64px;
+transition: all 0.3s ease-out;
+}
+.social a:hover{color: #f6ae00;}
+.account {
+  margin-left: 700px;
+  position: absolute !important;
+  top: 20px;
+  right: 240px;
+  
+}
+.dropdown-toggle{
+  color: black;
+ 
+}
+.dropdown-toggle:hover{
+  color:  #f6ae00;
+  text-decoration: none;
+ 
+}
+.dropdown-menu:hover{
+  z-index: 1000;
+}
+/*------------------------menu-------------- ------------------- */
+
+ .row2{
+  position: absolute;
+  top:80px;
+  z-index:2;
+  left:660px;
+ 
+   
+}
+.nav-item a{
+  color: black;
+}
+ 
+.nav-item a:hover{
+  color: #f6ae00;
+}
+.dropdown-menu a{
+  color: #256664;
+  text-align: right;
+}
+  
+.dropdown-menu a:hover{
+  color: #f8f8f8;
+background-color:#f6ae00; ;
+}
+
+.nav-item{
+  padding-left: 8px;
+}
+/*------------------------link------------------- ------------------- */
+.link{
+    position: relative;
+}
+.link1 {
+    padding: 15px 0px;
+    font-weight: 400;
+    line-height: 300px;
+    color: #fab000;
+    font-size: 14px;
+     
+}
+.link1 a{
+    color: #777c7c;
+    
+}
+.link1 a:hover{
+    text-decoration: none;
+    color:black;
+}

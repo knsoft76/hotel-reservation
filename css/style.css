@@ -97,7 +97,6 @@ background-color:#f6ae00; ;
   padding-left: 8px;
 }
 
-
 /*------------------------icon-------------------------------- */
 
  .slide-buttons-wrapper{
@@ -134,10 +133,12 @@ background-color:#f6ae00; ;
 }
 .slide-button a .txt1{
   color: #f8f8f8;
-}
+   }
 .slide-button a .txt1:hover{
   color: #f6ae00;
+   
 }
+  
 /*-----------------------booking-wrapper------------------------------ */
 
 .booking-wrapper {
@@ -194,9 +195,11 @@ background-color:#f6ae00; ;
 }
 select{
   border: none;
+ 
 }
 select::after{
   border: none;
+  
 }
 .c4{
 margin-right: -20px;
@@ -226,3 +229,6 @@ input{
   border: none;
 } 
  
+ 
+ /*-------------------------sign in and sign up------------------------------------*/
+  
